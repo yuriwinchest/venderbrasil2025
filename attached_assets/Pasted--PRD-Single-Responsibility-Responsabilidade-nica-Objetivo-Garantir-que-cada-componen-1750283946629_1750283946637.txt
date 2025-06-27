@@ -1,0 +1,60 @@
+### PRD - Single Responsibility (Responsabilidade Única)
+
+**Objetivo**: Garantir que cada componente, módulo ou arquivo da aplicação tenha uma única responsabilidade, reduzindo a complexidade e facilitando a manutenção.
+
+- **Descrição**: Implementar uma estrutura onde cada página (ex.: Home, Sobre) é um componente React independente, responsável apenas por sua renderização e lógica específica. Arquivos como `App.jsx` gerenciam apenas roteamento, e `Home.css` estiliza exclusivamente a página Home.
+- **Requisitos**:
+  - Cada página deve ter seu próprio arquivo JSX (ex.: `Home.jsx`) e CSS (ex.: `Home.css`).
+  - Componentes devem evitar múltiplas funções (ex.: navegação e renderização juntas).
+  - Alterações em uma página não afetam outras.
+- **Benefícios**: Facilita manutenção, isola problemas e melhora a escalabilidade.
+- **Exemplo**: `Home.jsx` renderiza a página inicial; `App.jsx` configura rotas.
+- **Considerações**: Adicionar comentários como `// Responsável por renderizar a página inicial`.
+
+---
+
+### PRD - KISS (Keep It Simple, Stupid)
+
+**Objetivo**: Manter o código simples e direto, evitando complexidades desnecessárias para facilitar o desenvolvimento e a compreensão.
+
+- **Descrição**: Adotar uma abordagem minimalista, usando estruturas básicas e evitando funcionalidades complexas até que sejam essenciais.
+- **Requisitos**:
+  - Usar Tailwind CSS para estilização simples (ex.: `text-3xl`).
+  - Evitar lógica condicional ou aninhamento excessivo em componentes como `Home.jsx`.
+  - Manter navegação básica em `App.jsx` sem animações ou efeitos desnecessários.
+- **Benefícios**: Reduz erros, acelera o desenvolvimento e melhora a legibilidade.
+- **Exemplo**: Renderizar `<h1>` e `<p>` em `Home.jsx` sem funções dinâmicas.
+- **Considerações**: Incluir comentários como `// Mantém a lógica simples e focada`.
+
+---
+
+### PRD - DRY (Don't Repeat Yourself)
+
+**Objetivo**: Eliminar duplicação de código, promovendo reutilização para maior eficiência e consistência.
+
+- **Descrição**: Identificar e extrair lógicas ou estilos repetidos para componentes ou arquivos compartilhados, evitando redundância.
+- **Requisitos**:
+  - Mover estilos comuns (ex.: `height: calc(100vh - 64px)`) para `global.css`.
+  - Criar componentes reutilizáveis como `Nav.jsx` para navegação.
+  - Centralizar roteamento em `App.jsx` com `Routes` e `Route`.
+- **Benefícios**: Reduz manutenção, melhora consistência e economiza tempo.
+- **Exemplo**: Reutilizar `Nav.jsx` em vez de repetir `<nav>` em várias páginas.
+- **Considerações**: Adicionar comentários como `// Reutiliza lógica comum para evitar duplicação`.
+
+---
+
+### PRD - YAGNI (You Aren't Gonna Need It)
+
+**Objetivo**: Evitar a adição de funcionalidades ou otimizações não necessárias no momento, focando apenas nos requisitos atuais.
+
+- **Descrição**: Limitar o escopo do código às necessidades imediatas, adiando implementações especulativas.
+- **Requisitos**:
+  - Não incluir autenticação ou banco de dados em `Home.jsx` sem demanda.
+  - Evitar bibliotecas extras (ex.: Redux) ou otimizações (ex.: lazy loading).
+  - Manter páginas estáticas como Home e Sobre sem recursos futuros.
+- **Benefícios**: Reduz complexidade inicial, agiliza entrega e evita desperdício.
+- **Exemplo**: Não criar formulário em `About.jsx` se for só texto estático.
+- **Considerações**: Incluir comentários como `// Adicionado apenas o necessário para os requisitos atuais`.
+
+--- 
+

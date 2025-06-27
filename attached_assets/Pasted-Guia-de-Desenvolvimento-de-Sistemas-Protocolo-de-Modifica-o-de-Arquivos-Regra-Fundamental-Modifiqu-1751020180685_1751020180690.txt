@@ -1,0 +1,136 @@
+Guia de Desenvolvimento de Sistemas
+Protocolo de Modificação de Arquivos
+Regra Fundamental: Modifique, Não Duplique
+
+Para realizar qualquer alteração no sistema, siga rigorosamente este protocolo: se o arquivo já existir, faça a modificação diretamente no arquivo original. Jamais crie um arquivo duplicado.
+
+✅ Correto: Editar arquivo existente
+❌ Incorreto: Criar novo arquivo
+
+A criação de novos arquivos deve ocorrer apenas quando o arquivo original não existir. Este protocolo garante a integridade, consistência e organização do sistema de gestão de arquivos.
+
+Diretrizes de UX/UI Premium para Sistemas Médicos
+Estética Premium
+• Paleta de cores refinada: Tons de branco, dourado, azul-marinho ou verde-esmeralda
+• Tipografia elegante: "Playfair Display" para títulos, "Lato" ou "Inter" para textos
+• Ícones modernos: Cantos arredondados com efeitos de sombra suave
+• Espaçamento generoso: Respiração visual entre elementos
+Hierarquia Visual Clara
+• Agrupamento em seções: Recepção, Prontuário, Faturamento bem definidos
+• Cards com espaçamento: Títulos destacados e conteúdo organizado
+• Minimalismo funcional: Apenas botões essenciais na tela inicial
+• Navegação intuitiva: Fluxo claro de informações
+Elementos de Confiança
+• Logo com selo de excelência: "Clínica premiada 2025"
+• Avaliações de pacientes: Depoimentos verificados
+• Certificados médicos: Credenciais visíveis
+• Parcerias renomadas: Associações e convênios
+Personalização e Toque Humano
+• Equipe profissional: Fotos em estilo retrato com especialidades
+• Descrições breves: Apresentação personalizada de cada profissional
+• Conteúdo audiovisual: Vídeos sobre a clínica e depoimentos
+• Tour virtual: Experiência imersiva das instalações
+Prompt Especializado para IA (Copilot)
+Prompt para Copilot:
+
+"Atue como um especialista sênior em UX/UI com mais de 20 anos de experiência em design para clínicas médicas de alto padrão. Analise esta página de sistema de gestão hospitalar e reestruture-a para transmitir sofisticação, exclusividade e confiança."
+
+Nota: Use este prompt ao solicitar melhorias de interface para sistemas médicos. Sempre forneça a imagem da interface atual para análise contextualizada.
+
+PRD e Princípios de Engenharia de Software
+Product Requirements Document (PRD)
+Definição: Documento técnico que define o que será construído, por que será construído e como o sucesso será medido.
+
+Estrutura do PRD:
+
+• Objetivos de Negócio: Métricas e KPIs esperados
+• Personas e User Stories: Quem usará e como
+• Requisitos Funcionais: O que o sistema deve fazer
+• Requisitos Não-Funcionais: Performance, segurança, escalabilidade
+• Critérios de Aceitação: Como validar o sucesso
+Separação de Responsabilidades (SRP)
+Princípio: Cada módulo, classe ou função deve ter uma única responsabilidade bem definida.
+
+✅ Boas Práticas:
+
+• Componentes com função única
+• Separação de lógica de negócio
+• APIs com endpoints específicos
+• Validação separada da persistência
+❌ Evitar:
+
+• Componentes com múltiplas funções
+• Misturar UI com lógica de dados
+• Endpoints que fazem tudo
+• Código duplicado entre módulos
+Princípios SOLID
+S - Single Responsibility
+
+Uma classe deve ter apenas uma razão para mudar
+
+O - Open/Closed
+
+Aberto para extensão, fechado para modificação
+
+L - Liskov Substitution
+
+Objetos derivados devem substituir seus tipos base
+
+I - Interface Segregation
+
+Interfaces específicas são melhores que genéricas
+
+D - Dependency Inversion
+
+Dependa de abstrações, não de implementações concretas
+
+Arquitetura Limpa (Clean Architecture)
+Camadas da Arquitetura:
+
+1. Entidades: Regras de negócio centrais
+2. Casos de Uso: Regras de negócio da aplicação
+3. Adaptadores: Interface entre camadas
+4. Frameworks: UI, banco de dados, web
+Regra de Dependência: Código em camadas internas não pode conhecer camadas externas.
+
+Design Patterns Essenciais
+Repository Pattern
+
+Abstração da camada de dados
+
+Factory Pattern
+
+Criação de objetos sem exposer lógica
+
+Observer Pattern
+
+Notificação automática de mudanças
+
+Strategy Pattern
+
+Algoritmos intercambiáveis
+
+Singleton Pattern
+
+Instância única global
+
+MVC/MVP/MVVM
+
+Separação UI/Lógica/Dados
+
+Checklist de Qualidade Técnica
+Interface
+☐ Paleta de cores premium aplicada
+☐ Tipografia consistente e legível
+☐ Ícones modernos e uniformes
+☐ Espaçamento adequado entre elementos
+Funcionalidade
+☐ Navegação intuitiva implementada
+☐ Elementos de confiança visíveis
+☐ Personalização aplicada
+☐ Responsividade testada
+Arquitetura
+☐ Separação de responsabilidades aplicada
+☐ Princípios SOLID seguidos
+☐ Design patterns implementados
+☐ PRD documentado e seguido

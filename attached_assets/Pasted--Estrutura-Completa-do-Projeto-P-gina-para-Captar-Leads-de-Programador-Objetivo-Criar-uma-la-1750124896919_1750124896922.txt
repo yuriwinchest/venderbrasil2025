@@ -1,0 +1,139 @@
+⚙️ Estrutura Completa do Projeto — Página para Captar Leads de Programador
+🎯 Objetivo:
+Criar uma landing page matadora, otimizada para vender o serviço de um programador (site, app, automação, etc), construída por uma IA que atua como uma equipe de especialistas.
+
+🧠 Especialistas Virtuais Envolvidos (Funções da IA)
+1. Gerente de Projeto (Tech Lead)
+Responsável por orquestrar tudo. Define objetivos, cronograma e prioridades.
+
+Define o objetivo: conversão de visitantes em leads qualificados
+
+Lista de funcionalidades obrigatórias
+
+Cronograma de entregas e responsáveis (IA)
+
+Aprovação de cada etapa
+
+2. UX Designer
+Foco total na experiência do usuário. Menos fricção, mais ação.
+
+Pesquisa rápida de comportamento do público-alvo
+
+Jornada do usuário: da primeira visita até o formulário
+
+Wireframe simples e funcional
+
+Testes de usabilidade simulados
+
+3. UI Designer
+Cria o visual impactante, com foco em conversão.
+
+Paleta de cores persuasiva
+
+Tipografia moderna e legível
+
+Ícones, espaçamentos, CTAs que brilham
+
+Design responsivo (mobile-first)
+
+4. Copywriter (Especialista em Conversão)
+Escreve como quem vende. Texto que prende e converte.
+
+Headline poderosa: "Com R$500 você tem seu site pronto"
+
+Subtítulo que reforça o benefício
+
+Benefícios rápidos (bullet points com ícones)
+
+Prova social ("+40 sites entregues", depoimentos, etc)
+
+Call to Action (Ex: “Quero meu site agora!”)
+
+5. Desenvolvedor Frontend (React ou HTML/CSS/JS)
+Codifica a interface linda e leve.
+
+HTML semântico
+
+CSS com grid/flexbox limpo e responsivo
+
+Animações suaves (ex: scroll, hover)
+
+Carregamento rápido (lazy load, compressão)
+
+6. Desenvolvedor Backend (opcional)
+Para capturar os leads em banco ou integrar com API (ex: Notion, Google Sheets, Firebase)
+
+API REST ou form action
+
+Armazenamento seguro (supabase, MongoDB, Airtable, etc)
+
+E-mail de notificação automática
+
+Proteção contra spam (Captcha ou Honeypot)
+
+7. Especialista em SEO & Performance
+Garante que a página ranqueie bem e seja rápida.
+
+Meta tags otimizadas (title, description, og:image)
+
+Sitemap.xml e robots.txt
+
+Lighthouse > 90 (Performance, SEO, Acessibilidade)
+
+PWA-ready (opcional)
+
+8. Especialista em Analytics
+Coleta tudo que importa: quem clicou, onde clicou, quando saiu.
+
+Google Analytics 4
+
+Evento de clique no botão “Enviar”
+
+A/B Teste (se for escalar)
+
+Mapa de calor (Hotjar opcional)
+
+🚀 Fluxo da Página Ideal
+css
+Copiar
+Editar
+[ Hero Section ]
+Título forte + botão
+
+[ Benefícios ]
+3 ou 4 bullets com ícones
+
+[ Como Funciona ]
+Passo a passo simples
+
+[ Portfólio / Provas ]
+Prints ou depoimentos
+
+[ Formulário ]
+Nome, WhatsApp, "Quero meu site"
+
+[ Rodapé ]
+Links sociais + política de privacidade
+🔥 Diferenciais da Página
+Gera senso de urgência: "Últimas vagas para esse mês"
+
+Mostra o valor: "Com R$500 você já sai com seu site no ar"
+
+Usa linguagem acessível e direta
+
+100% mobile-friendly
+
+Feita pra IA atualizar sozinha com novos textos ou estilos
+
+✅ Pronto pra construir
+Se quiser, posso gerar:
+
+✅ Estrutura HTML/CSS/JS com React ou vanilla
+
+✅ Copy escrita com foco em conversão
+
+✅ Design pronto ou mockup no Figma
+
+✅ Backend leve com Supabase, Node ou Firebase
+
+✅ Script automatizado pra deploy (VPS ou Vercel)

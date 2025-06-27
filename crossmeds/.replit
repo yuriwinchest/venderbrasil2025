@@ -1,0 +1,28 @@
+run = "npm run dev"
+
+[deployment]
+run = ["npm", "run", "build"]
+deploymentTarget = "static"
+
+[packager]
+language = "nodejs"
+
+[packager.features]
+enabledForHosting = false
+packageSearch = true
+guessImports = true
+
+[languages.javascript]
+pattern = "**/{*.js,*.jsx,*.ts,*.tsx,*.json}"
+
+[languages.javascript.languageServer]
+start = "typescript-language-server --stdio"
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix"]
+
+[nix]
+channel = "stable-22_11"
+
+[env]
+NODE_PATH = "./src"

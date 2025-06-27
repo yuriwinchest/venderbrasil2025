@@ -1,0 +1,109 @@
+Desenvolvedor Full-Stack & Especialista em Sistemas de Autenticação e Assinaturas
+
+
+HABILIDADES TÉCNICAS
+Linguagens & Tecnologias:
+
+Frontend: React.js, Vue.js, HTML5, CSS3 (Flexbox, Grid)
+
+Backend: Python (Flask, Django), Node.js, PHP (Laravel)
+
+Bancos de Dados: MySQL, PostgreSQL, MongoDB, SQLite
+
+Autenticação: OAuth 2.0, JWT, Firebase Auth, AWS Cognito
+
+Pagamentos: Mercado Pago, Stripe, PayPal (gateways e APIs)
+
+DevOps: AWS, Docker, GitHub Actions
+
+IA & Machine Learning:
+
+TensorFlow, PyTorch, Hugging Face Transformers (BERT, GPT, T5)
+
+Google Colab, Vertex AI, Azure Cognitive Services, IBM Watson
+
+OpenCV (visão computacional), ChatGPT (automação de fluxos)
+
+EXPERIÊNCIA PROFISSIONAL
+Sistemas de Autenticação Segura
+
+Desenvolvimento de fluxos de autenticação customizados com OAuth 2.0, JWT e integração de provedores (Google, Facebook, Apple ID).
+
+Implementação de:
+
+Verificação em 2 etapas (2FA) e bloqueio de IPs suspeitos.
+
+Políticas de conformidade LGPD/HIPAA para projetos de saúde.
+
+Redefinição de senha simplificada e gestão de sessões ativas.
+
+Gestão de Assinaturas e Pagamentos
+
+Criação de sistemas de cobrança recorrente para clínicas de saúde e plataformas de cursos online, incluindo:
+
+Integração com Mercado Pago, Stripe e PayPal para gestão de inadimplência (dunning) e prorrogação automática.
+
+Lógica de upgrade/downgrade de planos com cálculo proporcional e emissão automatizada de notas fiscais.
+
+Resultados: Redução de 30% em falhas de pagamento e aumento de 25% na retenção de assinantes.
+
+Desenvolvimento Full-Stack
+
+APIs REST com Node.js e Python (Flask/Django) para microsserviços escaláveis.
+
+Frontend dinâmico com React.js/Vue.js e layouts responsivos (CSS3 Grid/Flexbox).
+
+Otimização de consultas SQL e modelagem de bancos de dados para alto desempenho.
+
+PROJETOS DESTAQUE
+Sistema de Fidelidade para Clínica de Saúde
+
+Stack: React + Node.js + PostgreSQL + Mercado Pago
+
+Contribuição: Implementação de mensalidades com descontos progressivos e alertas de renovação via WhatsApp, resultando em 90% de automação de processos manuais.
+
+Plataforma de Assinaturas para Cursos Online
+
+Stack: Django + Vue.js + Stripe
+
+Contribuição: Tokens temporários para acesso a conteúdos exclusivos e gestão de trials gratuitos, aumentando a conversão em 15%.
+
+EDUCAÇÃO & CERTIFICAÇÕES
+
+
+Certificações: AWS Certified Developer, Scrum Master, LGPD Compliance (adicione conforme relevante)
+
+DIFERENCIAIS
+Domínio em sistemas críticos para saúde e pagamentos, com foco em segurança e conformidade.
+
+Híbrido entre desenvolvimento tradicional e soluções de IA (NLP, visão computacional).
+
+Expertise em traduzir regras de negócio em arquiteturas técnicas escaláveis.
+
+Disponível para oportunidades que exijam inovação técnica e impacto mensurável.
+Resumo da experiência profissional:
+Yuri [Seu Sobrenome]
+Desenvolvedor Full-Stack & Especialista em Sistemas de Autenticação e Assinaturas
+
+HABILIDADES TÉCNICAS
+Linguagens & Tecnologias:
+
+Frontend: React.js, Vue.js, HTML5, CSS3 (Flexbox, Grid)
+
+Backend: Python (Flask, Django), Node.js, PHP (Laravel)
+
+Bancos de Dados: MySQL, PostgreSQL, MongoDB, SQLite
+
+Autenticação: OAuth 2.0, JWT, Firebase Auth, AWS Cognito
+
+Pagamentos: Mercado Pago, Stripe, PayPal (gateways e APIs)
+
+DevOps: AWS, Docker, GitHub Actions
+
+IA & Machine Learning:
+
+TensorFlow, PyTorch, Hugging Face Transformers (BERT, GPT, T5)
+
+Google Colab, Vertex AI, Azure Cognitive Services, IBM Watson
+
+OpenCV (visão computacional), ChatGPT (automação de fluxos)

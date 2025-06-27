@@ -1,0 +1,20 @@
+Nível de glicemia;Descrição
+Normal;Glicemia em jejum inferior a 100 mg/dL
+Pré-diabetes;Glicemia em jejum entre 100 e 125 mg/dL
+Diabetes;Glicemia em jejum igual ou superior a 126 mg/dL
+Hipoglicemia;Glicemia igual ou inferior a 70 mg/dL
+;
+;
+Valores Normais de Colesterol:;
+Colesterol Total: ;Abaixo de 190 mg/dL. 
+"HDL (Colesterol ""Bom""):";Acima de 40 mg/dL. 
+"LDL (Colesterol ""Ruim""):";Baixo risco: Abaixo de 130 mg/dL. 
+;Alto risco: Abaixo de 70 mg/dL. 
+Triglicerídeos: Abaixo de 150 mg/dL. ;
+;
+;
+Classificação;Pressão arterial (mm Hg)
+Normal;Inferior a 120/80
+Elevada;120-129/menos de 80
+Hipertensão estágio 1;130-139 (pressão arterial sistólica) ou 80-89 (pressão arterial diastólica)
+Hipertensão;Igual ou superior a 140/90
