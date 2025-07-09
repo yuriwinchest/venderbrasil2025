@@ -1,0 +1,37 @@
+/* Estilos específicos da página de administração */
+/* Responsabilidade: Estilizar apenas elementos únicos da AdminPage */
+
+.admin-page {
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+/* Estilos para tabelas responsivas do admin */
+.admin-table-container {
+  overflow-x: auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Cards do dashboard admin */
+.admin-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.admin-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsividade para o admin */
+@media (max-width: 768px) {
+  .admin-page {
+    padding: 0;
+  }
+  
+  .admin-table-container {
+    border-radius: 0;
+  }
+}

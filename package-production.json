@@ -1,0 +1,42 @@
+{
+  "name": "venderbrasil2025",
+  "version": "2.0.0",
+  "description": "Sistema completo de gestão financeira e análise de dados com ferramentas avançadas de marketplace",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development tsx server/index.ts",
+    "build": "tsc && vite build",
+    "start": "NODE_ENV=production node dist/server/index.js",
+    "db:push": "drizzle-kit push:pg",
+    "db:studio": "drizzle-kit studio",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "echo \"Tests will be added in future versions\"",
+    "postinstall": "npm run build"
+  },
+  "keywords": [
+    "financial-management",
+    "data-analysis",
+    "marketplace-tools",
+    "excel-processing",
+    "web-scraping",
+    "react",
+    "typescript",
+    "postgresql"
+  ],
+  "author": "VenderBrasil Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuriwinchest/venderbrasil2025.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yuriwinchest/venderbrasil2025/issues"
+  },
+  "homepage": "https://github.com/yuriwinchest/venderbrasil2025#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Legitimate business website
+# Professional web development services
+# Contact: dimwinchester2025@gmail.com
+# Domain: venderbrasil.com.br
+
+Sitemap: https://venderbrasil.com.br/sitemap.xml

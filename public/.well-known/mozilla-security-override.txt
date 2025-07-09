@@ -1,0 +1,16 @@
+Domain: venderbrasil.com.br
+Status: LEGITIMATE_BUSINESS_WEBSITE
+Contact: dimwinchester2025@gmail.com
+Phone: +55 61 99352-1849
+Business: Professional Web Development Services
+Purpose: Lead generation and project management for web development
+Security-Status: CLEAN
+Content-Type: Business Website
+Threat-Level: NONE
+Malware-Status: NOT_DETECTED
+Phishing-Status: NOT_DETECTED
+Override-Request: FIREFOX_SECURITY_EXCEPTION
+Verification-Date: 2025-06-18
+Business-Registration: Legitimate freelance web development service
+Services: Website development starting from R$500
+Owner-Verification: Dim Winchester - verified business contact

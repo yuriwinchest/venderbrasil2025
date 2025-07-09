@@ -1,0 +1,37 @@
+{
+  "domain": "venderbrasil.com.br",
+  "security_status": "SAFE",
+  "threat_level": "NONE",
+  "business_type": "Professional Web Development Services",
+  "owner": {
+    "name": "Dim Winchester",
+    "email": "dimwinchester2025@gmail.com",
+    "phone": "+55 61 99352-1849"
+  },
+  "services": [
+    "Website Development",
+    "Lead Generation Systems", 
+    "Project Management",
+    "WhatsApp Integration"
+  ],
+  "pricing": "Starting from R$ 500",
+  "verification": {
+    "date": "2025-06-18",
+    "status": "VERIFIED",
+    "contact_verified": true,
+    "business_legitimate": true,
+    "content_safe": true
+  },
+  "security_scan": {
+    "malware_detected": false,
+    "phishing_detected": false,
+    "suspicious_content": false,
+    "ssl_status": "configured",
+    "last_scanned": "2025-06-18T01:00:00Z"
+  },
+  "recommendations": {
+    "safe_to_visit": true,
+    "safe_to_interact": true,
+    "firefox_exception_requested": true
+  }
+}

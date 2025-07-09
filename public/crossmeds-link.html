@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecionando para CrossMeds...</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            padding: 50px;
+            background: linear-gradient(135deg, #F8FAFE 0%, #E3F2FD 100%);
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(74, 144, 226, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏥 CrossMeds</h1>
+        <p>Redirecionando para o Gerenciador de Medicamentos...</p>
+        <p><a href="/crossmeds" style="color: #4A90E2; text-decoration: none; font-weight: bold;">Clique aqui se não for redirecionado automaticamente</a></p>
+    </div>
+    <script>
+        // Redirecionar automaticamente
+        setTimeout(() => {
+            window.location.href = '/crossmeds';
+        }, 1000);
+    </script>
+</body>
+</html>

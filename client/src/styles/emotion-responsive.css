@@ -1,0 +1,167 @@
+/* Emotion-Responsive Color System CSS */
+/* Defines CSS custom properties and classes for emotion-based color adaptation */
+
+:root {
+  /* Default color values - will be overridden by emotion system */
+  --emotion-primary: #4F46E5;
+  --emotion-secondary: #06B6D4;
+  --emotion-accent: #10B981;
+  --emotion-background: #F8FAFC;
+  --emotion-text: #1F2937;
+  --emotion-cta: #EF4444;
+  --emotion-transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Emotion-responsive utility classes */
+.emotion-primary {
+  color: var(--emotion-primary) !important;
+  transition: var(--emotion-transition);
+}
+
+.emotion-bg-primary {
+  background-color: var(--emotion-primary) !important;
+  transition: var(--emotion-transition);
+}
+
+.emotion-secondary {
+  color: var(--emotion-secondary) !important;
+  transition: var(--emotion-transition);
+}
+
+.emotion-bg-secondary {
+  background-color: var(--emotion-secondary) !important;
+  transition: var(--emotion-transition);
+}
+
+.emotion-accent {
+  color: var(--emotion-accent) !important;
+  transition: var(--emotion-transition);
+}
+
+.emotion-bg-accent {
+  background-color: var(--emotion-accent) !important;
+  transition: var(--emotion-transition);
+}
+
+.emotion-cta {
+  background-color: var(--emotion-cta) !important;
+  color: white !important;
+  border-color: var(--emotion-cta) !important;
+  transition: var(--emotion-transition);
+}
+
+.emotion-text {
+  color: var(--emotion-text) !important;
+  transition: var(--emotion-transition);
+}
+
+.emotion-background {
+  background-color: var(--emotion-background) !important;
+  transition: var(--emotion-transition);
+}
+
+/* Button styles with emotion-responsive colors */
+.btn-primary {
+  background: linear-gradient(135deg, var(--emotion-primary), var(--emotion-secondary)) !important;
+  border-color: var(--emotion-primary) !important;
+  transition: var(--emotion-transition);
+}
+
+.btn-cta {
+  background-color: var(--emotion-cta) !important;
+  border-color: var(--emotion-cta) !important;
+  transition: var(--emotion-transition);
+}
+
+.btn-cta:hover {
+  background-color: color-mix(in srgb, var(--emotion-cta) 85%, black) !important;
+  transform: scale(1.05);
+}
+
+/* Card hover effects with emotion colors */
+.card-hover:hover {
+  box-shadow: 0 8px 25px color-mix(in srgb, var(--emotion-primary) 20%, transparent) !important;
+  transition: var(--emotion-transition);
+}
+
+/* Hero gradient with emotion colors */
+.hero-gradient {
+  background: linear-gradient(135deg, 
+    var(--emotion-primary), 
+    var(--emotion-secondary), 
+    var(--emotion-accent)) !important;
+  transition: var(--emotion-transition);
+}
+
+/* Adaptive recommendation card styling */
+.recommendation-card {
+  border-left-color: var(--emotion-accent) !important;
+  transition: var(--emotion-transition);
+}
+
+.recommendation-card .badge {
+  background-color: var(--emotion-primary) !important;
+  transition: var(--emotion-transition);
+}
+
+/* Text color variations */
+.text-primary {
+  color: var(--emotion-primary) !important;
+  transition: var(--emotion-transition);
+}
+
+.border-primary {
+  border-color: var(--emotion-primary) !important;
+  transition: var(--emotion-transition);
+}
+
+/* Hover states for emotion-responsive elements */
+.hover\:emotion-bg-primary:hover {
+  background-color: var(--emotion-primary) !important;
+  transition: var(--emotion-transition);
+}
+
+.hover\:emotion-text:hover {
+  color: var(--emotion-text) !important;
+  transition: var(--emotion-transition);
+}
+
+/* Animation for smooth color transitions */
+@keyframes emotionColorShift {
+  0% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0.8; }
+}
+
+.emotion-pulse {
+  animation: emotionColorShift 2s ease-in-out infinite;
+}
+
+/* Priority states for high-urgency situations */
+.priority-high {
+  animation: emotionPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes emotionPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--emotion-cta) 70%, transparent);
+  }
+  50% {
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--emotion-cta) 0%, transparent);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .emotion-responsive-container {
+    --emotion-transition: all 0.6s ease;
+  }
+}
+
+/* Dark mode compatibility */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --emotion-background: #111827;
+    --emotion-text: #F9FAFB;
+  }
+}

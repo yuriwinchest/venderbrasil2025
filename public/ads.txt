@@ -1,0 +1,8 @@
+# ads.txt file for venderbrasil.com.br
+# This file verifies authorized digital sellers for this domain
+# Domain: venderbrasil.com.br
+# Contact: dimwinchester2025@gmail.com
+# Business: Professional Web Development Services
+
+# No advertising networks are authorized for this domain
+# This is a business service website, not an advertising platform

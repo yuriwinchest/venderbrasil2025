@@ -1,0 +1,9 @@
+Contact: mailto:dimwinchester2025@gmail.com
+Contact: tel:+5561993521849
+Expires: 2025-12-31T23:59:59.000Z
+Preferred-Languages: pt-BR, en
+Canonical: https://venderbrasil.com.br/.well-known/security.txt
+
+# Legitimate business website
+# Professional web development services
+# venderbrasil.com.br - Desenvolvimento de Sites Profissionais

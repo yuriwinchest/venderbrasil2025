@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrossMeds - Gerenciador de Medicamentos</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #F8FAFE 0%, #E3F2FD 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(74, 144, 226, 0.1);
+            padding: 40px;
+            text-align: center;
+        }
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #4A90E2, #00BFA5);
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 36px;
+        }
+        h1 {
+            color: #2C3E50;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #7B8794;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        .btn {
+            background: linear-gradient(135deg, #4A90E2, #00BFA5);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+        }
+        .loading {
+            margin-top: 20px;
+            color: #7B8794;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🏥</div>
+        <h1>CrossMeds</h1>
+        <p>Gerenciador de Medicamentos para Idosos<br>
+        Base com 25.700+ medicamentos ANVISA</p>
+        
+        <a href="#" onclick="openCrossMeds()" class="btn">
+            Abrir CrossMeds
+        </a>
+        
+        <div class="loading" id="loading" style="display: none;">
+            Carregando CrossMeds...
+        </div>
+    </div>
+
+    <script>
+        function openCrossMeds() {
+            document.getElementById('loading').style.display = 'block';
+            
+            // Tentar diferentes portas onde o CrossMeds pode estar rodando
+            const ports = [3001, 3000, 8080, 5173];
+            let currentPort = 0;
+            
+            function tryPort() {
+                if (currentPort >= ports.length) {
+                    alert('CrossMeds não está disponível no momento. Verifique se o servidor está rodando.');
+                    document.getElementById('loading').style.display = 'none';
+                    return;
+                }
+                
+                const port = ports[currentPort];
+                const url = `http://localhost:${port}`;
+                
+                // Tentar abrir na porta atual
+                const testWindow = window.open(url, '_blank');
+                
+                // Se não conseguir abrir, tentar próxima porta
+                setTimeout(() => {
+                    if (!testWindow || testWindow.closed || testWindow.location.href === 'about:blank') {
+                        currentPort++;
+                        tryPort();
+                    } else {
+                        document.getElementById('loading').style.display = 'none';
+                    }
+                }, 1000);
+            }
+            
+            tryPort();
+        }
+        
+        // Auto-detectar se CrossMeds está disponível
+        window.onload = function() {
+            fetch('http://localhost:3001')
+                .then(() => {
+                    document.querySelector('.btn').innerHTML = '✅ Abrir CrossMeds (Disponível)';
+                })
+                .catch(() => {
+                    document.querySelector('.btn').innerHTML = '⚠️ Iniciar CrossMeds';
+                });
+        };
+    </script>
+</body>
+</html>
